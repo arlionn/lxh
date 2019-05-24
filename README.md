@@ -14,15 +14,15 @@
 
 ## 安装 (install package)
 
-- 方法1: 下载 `lxh.ado` 和 `lxh.sthlp`，放置于 `D:\stata15\ado\base\l` 或 `D:\stata15\ado\plus\l` 文件夹中。
-- 方法2: 
+- **方法1:** 下载 `lxh.ado` 和 `lxh.sthlp`，放置于 `D:\stata15\ado\base\l` 或 `D:\stata15\ado\plus\l` 文件夹中。
+- **方法2:** 
   - 输入 `ssc install github, replace` 下载 `github` 命令 (若已安装，请忽略此步骤)；
   - 输入 `github install arlionn/lxh, replace` 下载 `lxh` 命令。
 
-## 使用
-- 在 Stata 命令窗口中输入 `lxh` 即可。
+## 使用方法
 
-## Examples
+在 Stata 命令窗口中输入 `lxh` 即可：
+
 ```stata
  . lxh
 ```
