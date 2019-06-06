@@ -35,7 +35,8 @@
 
 ## 下载命令
 
-**lxh** 发布于 [连享会 Github 主页](https://github.com/arlionn/lxh)，有三种安装方法，其中前两种方法适用于 Stata 15 以上版本，第三种方法适用于 Stata 14 及以下版本。
+**lxh** 发布于 [连享会 Github 主页](https://github.com/arlionn/lxh)，有三种安装方法 (推荐采用第一种方法)。
+
 
 ### 方法1： 使用 github 命令
 在命令窗口中按需下步骤执行命令即可安装 (若已安装 `github` 命令，可以忽略第一步)：
