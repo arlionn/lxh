@@ -22,13 +22,34 @@
 
 ----
 ## 下载命令
-**lxh** 发布于 [连享会 Github 主页](https://github.com/arlionn/lxh)，在命令窗口中按需下步骤执行命令即可安装 (若已安装 `github` 命令，可以忽略第一步)：
 
+**lxh** 发布于 [连享会 Github 主页](https://github.com/arlionn/lxh)，有三种安装方法，其中前两种方法适用于 Stata 15 以上版本，第三种方法适用于 Stata 14 及以下版本。
+
+### 方法1： 使用 github 命令
+在命令窗口中按需下步骤执行命令即可安装 (若已安装 `github` 命令，可以忽略第一步)：
 ```stata
-. ssc install github, replace // 下载 github 命令 (若已安装，请忽略此步骤)；
+. net install github, from("https://haghish.github.io/github/") replace // 下载 github 命令 (若已安装，请忽略此步骤)；
 . github install arlionn/lxh, replace // 下载 lxh 命令
 ```
 
+
+### 方法2：使用 net install 命令
+该方法的好处是不用预先安装 `github` 命令。
+```stata
+. net install lxh, from(https://raw.github.com/arlionn/lxh/master/) replace
+```
+
+### 方法3：手动下载
+
+将 **lxh.ado** 和 **lxh.sthlp** 文件下载到 Stata 安装目录下的 **stata15\ado\plus\l** 文件夹或 **stata15\ado\base\l** 文件夹下即可 (具体路径可以输入 `adopath` 命令查看，只要在此列表中的路径都可以放置上述文件)。
+
+直接执行如下命令即可：
+
+```stata
+. cd "D:\stata15\ado\plus\l"  // 可以根据你的路径修改
+. copy  "https://github.com/arlionn/lxh/blob/master/lxh.ado"  lxh.ado
+. copy "https://github.com/arlionn/lxh/blob/master/lxh.sthlp"  lxh.sthlp
+```
 
 ## 使用方法
 
