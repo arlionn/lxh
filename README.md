@@ -1,9 +1,10 @@
 ﻿
 &emsp;
 
-[![2019暑期Stata现场班，7.17-26日，北京，连玉君+刘瑞明 主讲](https://upload-images.jianshu.io/upload_images/7692714-321b9566d51e2db2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://gitee.com/arlionn/Course/blob/master/2019%E6%9A%91%E6%9C%9FStata%E7%8E%B0%E5%9C%BA%E7%8F%AD.md)
+> Stata连享会 &emsp; [计量专题](https://gitee.com/arlionn/Course/blob/master/README.md)  || [精品课程](https://mp.weixin.qq.com/s/hWtncj56PeFNL4yg2-va0Q) || [简书推文](https://www.jianshu.com/p/de82fdc2c18a)  || [公众号合集](https://mp.weixin.qq.com/s/RwkuPpLS7bI5C5OhRqjkOw)
 
-> #### [2019暑期Stata现场班，7.17-26日，北京，连玉君+刘瑞明 主讲](https://gitee.com/arlionn/Course/blob/master/2019%E6%9A%91%E6%9C%9FStata%E7%8E%B0%E5%9C%BA%E7%8F%AD.md)
+[![点击查看完整推文列表](https://upload-images.jianshu.io/upload_images/7692714-77595f33f776ad2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://mp.weixin.qq.com/s/RwkuPpLS7bI5C5OhRqjkOw)
+
 
 
 &emsp;
