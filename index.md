@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/arlionn/lxh/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> `lianxh` 命令：在 Stata 里看推文，&#x1F449; [码云仓库](https://gitee.com/arlionn/lianxh)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 1. 简介
 
-```markdown
-Syntax highlighted code block
+`lianxh` 命令是连享会编写的一个小程序，目的在于让用户可以便捷地从 Stata 窗口中使用关键词检索 [连享会](https://www.lianxh.cn) 发布的推文，同时，也可以列出常用的 Stata 资源链接，包括 Stata 官网地址，Stata 官方 [FAQs](https://www.stata.com/support/faqs/)，Stata 论坛 ([Statalist](https://www.statalist.org/forums/))，[Stata Journal](https://www.lianxh.cn/news/12ffe67d8d8fb.html)；Stata 网络教程、[论文重现资料](https://www.lianxh.cn/news/e87e5976686d5.html) 等。
 
-# Header 1
-## Header 2
-### Header 3
+## 2. 安装和帮助
 
-- Bulleted
-- List
+在 Stata 命令窗口中输入如下命令即可：
 
-1. Numbered
-2. List
+```stata
+. net install lianxh.pkg, from(https://arlionn.gitee.io/lianxh) replace force
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+. help lianxh
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 3. 用法
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arlionn/lxh/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 常用命令
+```stata 
+. lianxh                // 呈现 Stata 资源链接和常用网址
+ 
+. lianxh all            // 呈现所有分类链接
 
-### Support or Contact
+. lianxh DID            // 呈现包含 DID 关键词的推文
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+. lianxh DID 倍分 双差分 // 多个关键词查询 (并集)
+
+. lianxh 论文重现
+
+. lianxh sj
+```
+
+
+## 4. 宝贵建议
+
+`lianxh` 还不完善，大家使用过程中若发现 bugs，或有好的建议，均可发邮件至 <StataChina@163.com>。
+
+--- - --
+
+
